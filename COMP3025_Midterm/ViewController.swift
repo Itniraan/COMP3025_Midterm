@@ -15,20 +15,58 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    // Quantity variables
     @IBOutlet weak var item1Quantity: UILabel!
-    
     @IBOutlet weak var item2Quantity: UILabel!
-    
     @IBOutlet weak var item3Quantity: UILabel!
-    
     @IBOutlet weak var item4Quantity: UILabel!
-    
     @IBOutlet weak var item5Quantity: UILabel!
     
-    func subtractQuantity() {
-        
+    var item1: Int = 0
+    var item2: Int = 0
+    var item3: Int = 0
+    var item4: Int = 0
+    var item5: Int = 0
+
+    @IBAction func quantity1Minus(sender: AnyObject) {
+        if Int(item1Quantity.text!) > 0 {
+            item1--
+            item1Quantity.text = String(item1)
+        }
+        else {
+
+        }
     }
+    
+    @IBAction func quantity1Plus(sender: AnyObject) {
+        item1++
+        item1Quantity.text = String(item1)
+    }
+    
+    
+    @IBAction func quantity2Minus(sender: AnyObject) {
+    }
+    
+    @IBAction func quantity2Plus(sender: AnyObject) {
+    }
+    
+    @IBOutlet weak var quantity2Minus: UIButton!
+    
+    @IBAction func quantity3Plus(sender: AnyObject) {
+    }
+    
+    @IBAction func quantity4Minus(sender: AnyObject) {
+    }
+    
+    @IBAction func quantity4Plus(sender: AnyObject) {
+    }
+    
+    @IBAction func quantity5Minus(sender: AnyObject) {
+    }
+    
+    @IBAction func quantity5Plus(sender: AnyObject) {
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
