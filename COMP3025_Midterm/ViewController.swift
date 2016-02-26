@@ -10,6 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var item1Quantity: UILabel!
+    
+    @IBOutlet weak var item2Quantity: UILabel!
+    
+    @IBOutlet weak var item3Quantity: UILabel!
+    
+    @IBOutlet weak var item4Quantity: UILabel!
+    
+    @IBOutlet weak var item5Quantity: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
