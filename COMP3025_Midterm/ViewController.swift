@@ -2,6 +2,11 @@
 //  ViewController.swift
 //  COMP3025_Midterm
 //
+//  File Name: COMP3025_Midterm
+//  Author: Blake Murdock (200260568)
+//  Date: Febraury 26, 2016
+//  Purpose: A basic shopping list app
+//
 //  Created by student on 2016-02-26.
 //  Copyright © 2016 blake. All rights reserved.
 //
@@ -21,7 +26,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var item5Quantity: UILabel!
     
-    
+    func subtractQuantity() {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
